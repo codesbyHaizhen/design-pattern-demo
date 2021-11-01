@@ -1,4 +1,4 @@
-package builderdemo;
+package com.example.builderdemo;
 
 public class House {
 	private String basement;

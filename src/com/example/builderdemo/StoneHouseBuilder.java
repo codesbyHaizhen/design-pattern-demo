@@ -1,12 +1,11 @@
-package builderdemo;
+package com.example.builderdemo;
 
-public class WoodHouseBuilder extends HouseBuilder {
+public class StoneHouseBuilder extends HouseBuilder {
 	private House house;
 	
-	public WoodHouseBuilder() {
+	public StoneHouseBuilder() {
 		this.house = new House();
 	}
-	
 	@Override
 	public void buildBasement() {
 		house.setBasement("Keller aus Stein, mit Strom- und Wasserleitungen.");
@@ -14,17 +13,17 @@ public class WoodHouseBuilder extends HouseBuilder {
 
 	@Override
 	public void buildMaterial() {
-		house.setMaterial("Holzlatten");
+		house.setMaterial("Speziell angefertigten Mauersteinen");
 	}
 
 	@Override
 	public void buildKitchen() {
-		house.setKitchen("Küche mit edlen Holzelementen");
+		house.setKitchen("Granit Küche");
 	}
 
 	@Override
 	public void buildRoof() {
-		house.setRoof("Holzdach");
+		house.setRoof("Schwarze Dachziegel mit Fundament aus Steinen");
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package builderdemo;
+package com.example.builderdemo;
 
 public abstract class HouseBuilder {
 	public abstract void buildBasement();
